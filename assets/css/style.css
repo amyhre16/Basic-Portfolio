@@ -1,0 +1,29 @@
+.header {
+	float: left;
+	margin: 0em 40em 0em 10em;
+}
+
+/*#git, #linkedIn, #stackoverflow {
+	float: left;
+}*/
+
+/*For Sticky Footer*/
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	clear: both;
+}
+
+.footer, .push {
+	height: 4em;
+}
