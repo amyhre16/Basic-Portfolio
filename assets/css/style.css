@@ -90,6 +90,11 @@ hr {
 	width: 72px;
 }
 
+.fa-spin {
+	animation-iteration-count: 1;
+	animation-duration: 1.5s;
+}
+
 /*
 	
 	For Sticky Footer
@@ -188,4 +193,27 @@ hr {
 
 .portfolio-cell {
 	position: relative;
+	margin-right: 45px;
+	margin-bottom: 45px;
+}
+
+.port-img {
+	display: inline-block;
+	width: 280px;
+}
+
+.port-img-h2 {
+	position: absolute;
+	bottom: 10px;
+	color: white;
+	background-color: teal;
+	width: 100%;
+	text-align: center;
+	/*padding: 10px;*/
+	/*height: 50px;*/
+	height: 25px;
+}
+
+.port-row {
+	margin-bottom: 45px;
 }
